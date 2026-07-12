@@ -19,7 +19,7 @@ function Landing() {
         <div className="flex items-center gap-3">
           <div className="grid size-11 place-items-center rounded-full bg-primary text-primary-foreground font-display text-xl shadow-sm wiggle">✿</div>
           <div>
-            <p className="font-display text-xl leading-none">HeritageQuest</p>
+            <p className="font-display text-xl leading-none">HeritageQuest <span className="text-[10px] font-semibold text-primary/60 ml-1">v1.2</span></p>
             <p className="text-xs text-muted-foreground">{t("tagline")}</p>
           </div>
         </div>
